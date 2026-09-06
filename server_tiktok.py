@@ -65,7 +65,7 @@ from TikTokLive.events import ConnectEvent, CommentEvent, DisconnectEvent
 import websockets
 
 # 1) Metti qui lo username TikTok della diretta (senza la @)
-NOME_UTENTE_TIKTOK = "multiverso.animat"
+NOME_UTENTE_TIKTOK = ""
 
 # insieme delle pagine HTML attualmente collegate via WebSocket
 client_collegati = set()
